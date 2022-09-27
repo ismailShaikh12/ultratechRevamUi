@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabs Practice</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+    <section class="container">
+        <nav class="head">
+            <ul class="nav-menu">
+                <li class="nav-item active" data-trigger="1">
+                    <a class="nav-link" href="#">Overview</a>
+                </li>
+                <li class="nav-item" data-trigger="2">
+                    <a class="nav-link" href="#">Our Story</a>
+                </li>
+                <li class="nav-item" data-trigger="3">
+                    <a class="nav-link" href="#">Leadership Team</a>
+                </li>
+                <li class="nav-item" data-trigger="4">
+                    <a class="nav-link" href="#">Our Values</a>
+                </li>
+            </ul>
+        </nav>
+    </section>
+    <section class="container tab-content " data-content="1">
+        <div class="">
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos quia aliquam voluptatibus tempora magnam quaerat placeat earum dolore natus aspernatur illo consequuntur mollitia, reprehenderit molestiae obcaecati tempore laboriosam ab exercitationem?
+            </p>
+        </div>
+    </section>
+    <section class="container tab-content dsp-none" data-content="2">
+        <div class="">lorem 2</div>
+    </section>
+    <section class="container tab-content dsp-none" data-content="3">
+        <div class="">lorem 3</div>
+    </section>
+    <section class="container tab-content dsp-none" data-content="4">
+        <div class="">lorem 4</div>
+    </section>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="./javascript/script.js"></script>
+</body>
+
+</html>
