@@ -3,5 +3,25 @@
     "compression": "^1.7.4",
     "express": "^4.18.1",
     "init": "^0.1.2"
-  }
+  },
+  "name": "ultratechrevamui",
+  "description": "",
+  "version": "1.0.0",
+  "main": "index.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start":"node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ismailShaikh12/ultratechRevamUi.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ismailShaikh12/ultratechRevamUi/issues"
+  },
+  "homepage": "https://github.com/ismailShaikh12/ultratechRevamUi#readme"
 }
