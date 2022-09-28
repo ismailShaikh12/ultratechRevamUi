@@ -1,0 +1,114 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    /* line-height: 1;
+    overflow-x: hidden; */
+}
+
+ol,
+ul {
+    list-style: none;
+}
+
+blockquote,
+q {
+    quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+    content: '';
+    content: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+.container {
+    max-width: 90%;
+    margin: 0  0 0  auto;
+}
+
+h1 {
+    margin: 30px 0 0 0;
+    font-size: 65px;
+    color: rgb(162, 24, 24);
+    text-transform: uppercase;
+}
+
+.slider {
+    margin-top: 50px;
+}
+
+.tools-wrap {
+    display: flex;
+    justify-content: space-between;
+}
+
+.border-div {
+    /* width: 300px; */
+    border: 2px solid #999999 !important;
+    padding: 30px;
+    margin: 10px;
+}
+
+.slick-dots li button:before {
+    font-size: 40px;
+}
+
+.slick-next:before,
+.slick-prev:before {
+    color: black;
+}
+
+.border-div h2 {
+    margin: 20px 0px;
+}
+
+.slick-next {
+    position: absolute;
+    top: -10px;
+    right: 30px;
+}
+
+.slick-prev {
+    position: absolute;
+    top: -10px;
+    left: 300px;
+}
+
+.slider-wrapper {
+    position: relative;
+}
+
+.slider-wrapper {
+    clip-path: inset(-126vw -127vw -158vw 0vw);
+}
+
+/* .slick-list {
+    overflow: visible;
+} */
+
+.tool-content {
+    width: 300px !important;
+}
+.slick-track{
+    /* width: 100%!important;    */
+}
