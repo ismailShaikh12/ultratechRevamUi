@@ -16,6 +16,7 @@
 </head>
 
 <body>
+    <?php
     <section class="solution">
         <div class="solution__left">
             <h2 class="solution__left-title">Selecting Materials<span class="solution__left-white">Checklist</span></h2>
@@ -127,7 +128,9 @@
             </div>
         </div>
     </section>
+    ?>
     <script src="./javascript/script.js"></script>
+    
 </body>
 
 </html>
