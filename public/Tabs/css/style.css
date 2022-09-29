@@ -137,3 +137,9 @@ img {
     background-color: rgb(236, 232, 163);
     box-shadow: 10px 5px 5px rgb(121, 116, 116);
 }
+
+@media screen {
+    .box {
+        flex-direction: column;
+    }
+}
