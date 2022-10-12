@@ -1,0 +1,151 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    line-height: 1;
+}
+
+ol,
+ul {
+    list-style: none;
+}
+
+blockquote,
+q {
+    quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+    content: '';
+    content: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+.container {
+    max-width: 1170px;
+    margin: 0 auto;
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
+
+/* Footer cs  Start here */
+footer {
+    background-color: #2b2b2b;
+    padding-bottom: 40px;
+}
+
+.footer__left {
+    flex-basis: 65%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer__right {
+    flex-basis: 45%;
+    /* margin-top: 20px; */
+    background-color: #3c3c3c;
+    padding: 35px 40px 25px;
+}
+
+.footer__left h3 {
+    color: #fff500;
+    margin: 20px 0;
+}
+
+.footer-list {
+    color: #fff;
+    font-size: 14px;
+    line-height: 2;
+    margin-right: 0;
+}
+
+.footer__wrapperr {
+    display: flex;
+}
+
+.footer-right-title {
+    margin-top: 20px;
+    font-size: 16px;
+    text-decoration: underline;
+    color: #fff500;
+}
+
+.footer__left-one {
+    width: 33.33%;
+    padding: 15px;
+}
+
+.icons {
+    display: flex;
+    margin-top: 30px;
+}
+
+.icons__redirec {
+    color: #fff;
+    font-size: 25px;
+    margin-right: 25px;
+}
+
+.address {
+    margin: 25px 0;
+}
+
+.address span {
+    margin: 7px 0;
+    display: block;
+    text-align: left;
+    font-size: 14px;
+    color: #969696;
+}
+
+.links {
+    display: flex;
+}
+
+.links__list {
+    display: inline-block;
+    text-align: left;
+    margin: 0 15px 0 0;
+}
+
+.links__redirec {
+    color: #969696;
+    text-decoration: underline;
+    font-size: 14px;
+    line-height: 2;
+    margin-right: 0;
+}
+
+.copyright {
+    margin-top: 30px;
+}
+
+.copyright span {
+    font-size: 14px;
+    text-align: left;
+    margin-top: 27px;
+    margin-bottom: 0;
+    color: #969696;
+}

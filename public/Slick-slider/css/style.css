@@ -43,7 +43,7 @@ a {
 
 .container {
     max-width: 90%;
-    margin: 0  0 0  auto;
+    margin: 0 0 0 auto;
 }
 
 h1 {
@@ -109,6 +109,7 @@ h1 {
 .tool-content {
     width: 300px !important;
 }
-.slick-track{
+
+.slick-track {
     /* width: 100%!important;    */
 }
