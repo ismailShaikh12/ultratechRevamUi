@@ -238,7 +238,9 @@ a {
 .whitebox__img {
     position: absolute;
     bottom: 90%;
-    left: 60px;
+    margin: 0 auto;
+    left: 0px;
+    right: 0px;
 }
 
 .category__list {
@@ -275,4 +277,18 @@ a {
 .category__anchor:hover {
     background-color: #fe0;
     border-radius: 10px;
+}
+
+@media screen and (max-width: 991px) {
+    .solution {
+        flex-direction: column;
+    }
+
+    .category__flex {
+        flex-direction: column;
+    }
+
+    .solution__left {
+        width: 85%;
+    }
 }
